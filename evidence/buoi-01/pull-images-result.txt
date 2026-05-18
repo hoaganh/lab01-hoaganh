@@ -1,0 +1,202 @@
+==> Pulling registry:2
+2: Pulling from library/registry
+Digest: sha256:a3d8aaa63ed8681a604f1dea0aa03f100d5895b6a58ace528858a7b332415373
+Status: Image is up to date for registry:2
+docker.io/library/registry:2
+[PASS] registry:2
+
+==> Pulling python:3.11-slim
+3.11-slim: Pulling from library/python
+Digest: sha256:9a7765b36773a37061455b332f18e265e7f58f6fea9c419a550d2a8b0e9db834
+Status: Downloaded newer image for python:3.11-slim
+docker.io/library/python:3.11-slim
+[PASS] python:3.11-slim
+
+==> Pulling node:20-alpine
+20-alpine: Pulling from library/node
+Digest: sha256:fb4cd12c85ee03686f6af5362a0b0d56d50c58a04632e6c0fb8363f609372293
+Status: Image is up to date for node:20-alpine
+docker.io/library/node:20-alpine
+[PASS] node:20-alpine
+
+==> Pulling postgres:15-alpine
+15-alpine: Pulling from library/postgres
+e7388fabcfc8: Pulling fs layer
+089c22c5ccd1: Pulling fs layer
+875febe691e3: Pulling fs layer
+d5aa5cfeb581: Pulling fs layer
+b4d16d98c9e2: Pulling fs layer
+fabfbb741253: Pulling fs layer
+0a8a2f657a65: Pulling fs layer
+9ba0314f1de5: Pulling fs layer
+0d7083820709: Pulling fs layer
+7a2cc7995f67: Pulling fs layer
+c8e31ffa0207: Download complete
+7cd9452a9126: Download complete
+089c22c5ccd1: Download complete
+b4d16d98c9e2: Download complete
+e7388fabcfc8: Download complete
+9ba0314f1de5: Download complete
+d5aa5cfeb581: Download complete
+fabfbb741253: Download complete
+0a8a2f657a65: Download complete
+7a2cc7995f67: Download complete
+fabfbb741253: Pull complete
+0d7083820709: Download complete
+0d7083820709: Pull complete
+0a8a2f657a65: Pull complete
+9ba0314f1de5: Pull complete
+875febe691e3: Download complete
+875febe691e3: Pull complete
+b4d16d98c9e2: Pull complete
+d5aa5cfeb581: Pull complete
+089c22c5ccd1: Pull complete
+e7388fabcfc8: Pull complete
+7a2cc7995f67: Pull complete
+Digest: sha256:df7bca0066e6f60cc3dd32faa70caddec20e2c22b58932f79498e5704b23854a
+Status: Downloaded newer image for postgres:15-alpine
+docker.io/library/postgres:15-alpine
+[PASS] postgres:15-alpine
+
+==> Pulling rabbitmq:3-management
+3-management: Pulling from library/rabbitmq
+Digest: sha256:e582c0bc7766f3342496d8485efb5a1df782b5ce3886ad017e2eaae442311f69
+Status: Image is up to date for rabbitmq:3-management
+docker.io/library/rabbitmq:3-management
+[PASS] rabbitmq:3-management
+
+==> Pulling eclipse-mosquitto:2
+2: Pulling from library/eclipse-mosquitto
+Digest: sha256:a908c65cc8e67ec9d292ef27c2c0360dbaaee7eb1b935cdd194e67697f15dea1
+Status: Image is up to date for eclipse-mosquitto:2
+docker.io/library/eclipse-mosquitto:2
+[PASS] eclipse-mosquitto:2
+
+==> Pulling nginx:alpine
+alpine: Pulling from library/nginx
+d0ffc65fde23: Pulling fs layer
+be5351d87f1f: Pulling fs layer
+22ed557e9038: Pulling fs layer
+7f32a4497b31: Pulling fs layer
+19af4ef65048: Pulling fs layer
+02eda4087d06: Pulling fs layer
+42f24ddde8a4: Pulling fs layer
+500eca0a176b: Download complete
+07240f2205fc: Download complete
+19af4ef65048: Download complete
+02eda4087d06: Download complete
+42f24ddde8a4: Download complete
+be5351d87f1f: Download complete
+22ed557e9038: Download complete
+d0ffc65fde23: Download complete
+d0ffc65fde23: Pull complete
+02eda4087d06: Pull complete
+42f24ddde8a4: Pull complete
+be5351d87f1f: Pull complete
+22ed557e9038: Pull complete
+19af4ef65048: Pull complete
+7f32a4497b31: Download complete
+7f32a4497b31: Pull complete
+Digest: sha256:dc48b7a872a79fb541ba5081d320b11b549231bc63ba465a7495afaa7d2ebcb8
+Status: Downloaded newer image for nginx:alpine
+docker.io/library/nginx:alpine
+[PASS] nginx:alpine
+
+==> Pulling traefik:v3.1
+v3.1: Pulling from library/traefik
+Digest: sha256:74d72c7a1345984f186bddbabcc462b2128d0d8054177dc84afaeac4db1f0f56
+Status: Image is up to date for traefik:v3.1
+docker.io/library/traefik:v3.1
+[PASS] traefik:v3.1
+
+==> Pulling prom/prometheus:v2.54.1
+v2.54.1: Pulling from prom/prometheus
+Digest: sha256:f6639335d34a77d9d9db382b92eeb7fc00934be8eae81dbc03b31cfe90411a94
+Status: Image is up to date for prom/prometheus:v2.54.1
+docker.io/prom/prometheus:v2.54.1
+[PASS] prom/prometheus:v2.54.1
+
+==> Pulling grafana/grafana:11.2.0
+11.2.0: Pulling from grafana/grafana
+Digest: sha256:408afb9726de5122b00a2576763a8a57a3c86d5b0eff5305bc994ceb3eb96c3f
+Status: Image is up to date for grafana/grafana:11.2.0
+docker.io/grafana/grafana:11.2.0
+[PASS] grafana/grafana:11.2.0
+
+==> Pulling redis:7-alpine
+7-alpine: Pulling from library/redis
+Digest: sha256:6ab0b6e7381779332f97b8ca76193e45b0756f38d4c0dcda72dbb3c32061ab99
+Status: Image is up to date for redis:7-alpine
+docker.io/library/redis:7-alpine
+[PASS] redis:7-alpine
+
+==> Pulling swaggerapi/swagger-ui:v5.17.14
+v5.17.14: Pulling from swaggerapi/swagger-ui
+Digest: sha256:cb968cc70260c6027b44f227d054a0f12381736e9ab628ef6b6070a19fdf2172
+Status: Image is up to date for swaggerapi/swagger-ui:v5.17.14
+docker.io/swaggerapi/swagger-ui:v5.17.14
+[PASS] swaggerapi/swagger-ui:v5.17.14
+
+==> Pulling hello-world:latest
+latest: Pulling from library/hello-world
+Digest: sha256:0e760fdfbc48ba8041e7c6db999bb40bfca508b4be580ac75d32c4e29d202ce1
+Status: Downloaded newer image for hello-world:latest
+docker.io/library/hello-world:latest
+[PASS] hello-world:latest
+
+==> Pulling ultralytics/ultralytics:latest-cpu
+latest-cpu: Pulling from ultralytics/ultralytics
+30626a56d8c9: Pulling fs layer
+bc0965b23a04: Pulling fs layer
+5f1baedc0273: Pulling fs layer
+0cbdcc94a37d: Pulling fs layer
+0d46d4c117f6: Pulling fs layer
+3bc3f7229179: Pulling fs layer
+c148b798fc0b: Pulling fs layer
+42dacf6a4601: Pulling fs layer
+0ca6280b1cbd: Pulling fs layer
+c58b365c3bcb: Pulling fs layer
+c136347ff82d: Pulling fs layer
+0cbdcc94a37d: Download complete
+42dacf6a4601: Download complete
+0ca6280b1cbd: Download complete
+c58b365c3bcb: Download complete
+c136347ff82d: Download complete
+c148b798fc0b: Download complete
+3bc3f7229179: Download complete
+bc0965b23a04: Download complete
+bc0965b23a04: Pull complete
+c58b365c3bcb: Pull complete
+3bc3f7229179: Pull complete
+42dacf6a4601: Pull complete
+c148b798fc0b: Pull complete
+0d46d4c117f6: Download complete
+5f1baedc0273: Download complete
+5f1baedc0273: Pull complete
+0cbdcc94a37d: Pull complete
+0d46d4c117f6: Pull complete
+0ca6280b1cbd: Pull complete
+c136347ff82d: Pull complete
+30626a56d8c9: Download complete
+30626a56d8c9: Pull complete
+Digest: sha256:7bfa8ac68cb013199142cd74b00c1ff8cc3697ade8c1974adfb88df433f993f8
+Status: Downloaded newer image for ultralytics/ultralytics:latest-cpu
+docker.io/ultralytics/ultralytics:latest-cpu
+[PASS] ultralytics/ultralytics:latest-cpu
+
+==> Current images
+REPOSITORY:TAG                       IMAGE ID       SIZE
+ultralytics/ultralytics:latest-cpu   7bfa8ac68cb0   2.8GB
+postgres:15-alpine                   df7bca0066e6   392MB
+nginx:alpine                         dc48b7a872a7   93.8MB
+python:3.11-slim                     9a7765b36773   188MB
+redis:7-alpine                       6ab0b6e73817   57.8MB
+node:20-alpine                       fb4cd12c85ee   194MB
+eclipse-mosquitto:2                  a908c65cc8e6   35.9MB
+hello-world:latest                   0e760fdfbc48   25.9kB
+rabbitmq:3-management                e582c0bc7766   392MB
+traefik:v3.1                         74d72c7a1345   232MB
+grafana/grafana:11.2.0               408afb9726de   635MB
+prom/prometheus:v2.54.1              f6639335d34a   386MB
+swaggerapi/swagger-ui:v5.17.14       cb968cc70260   168MB
+registry:2                           a3d8aaa63ed8   37.4MB
